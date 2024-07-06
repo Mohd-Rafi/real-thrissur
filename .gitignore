@@ -18,7 +18,6 @@ dist
 .env
 Frontend/node_modules
 Frontend/dist
-Frontend/public
 Backend/uploads
 Backend/dist
 
