@@ -19,10 +19,9 @@ const Slider = () => {
       slidesToSlide: 1, // optional, default to 1.
     },
   };
-
   const imagesArray = ['img2.jpg', 'img2.jpg', 'img2.jpg'];
   return (
-    <section className="relative w-full h-full">
+    <section className="relative w-full h-full ">
       <Carousel
         responsive={responsive}
         swipeable
@@ -36,18 +35,18 @@ const Slider = () => {
             src={item}
             key={index}
             alt=""
-            className="h-[95vh] w-[100vw] object-cover blur-sm"
+            className="h-[95vh] w-[100vw] object-cover"
           />
         ))}
       </Carousel>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-9 flex-col items-center justify-center py-12">
-        <p className="text-7xl font-bold text-slate-100 max-sm:text-5xl max-md:text-5xl">
+        <p className="text-7xl font-bold text-slate-100 max-sm:text-5xl max-md:text-5xl e">
           New Properties
         </p>
         <p className="text-center uppercase text-3xl text-white font-mediumW max-sm:text-xl">
           Exclusively by dwell
         </p>
-        <button className="bg-red-600 w-56 py-4 text-center mt-9 rounded-md text-white font-bold text-xl font-sans">
+        <button className="bg-red-600 w-52 max-sm:w-44 py-4 text-center mt-9 border-none rounded-md text-white font-bold text-xl font-sans hover:bg-red-500 hover:scale-105 transition-all">
           Explore
         </button>
       </div>
