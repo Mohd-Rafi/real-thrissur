@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f9f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smmothning: grayscale;
+  word-break: break-word;
+}
+
+.bg-primary {
+  background-color: #091d35;
+}
+
+.text-primary {
+  color: #091d35;
+}
